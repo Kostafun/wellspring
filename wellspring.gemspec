@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "rails", "~> 4.2.4"
+  s.add_dependency "rails", "~> 4.2"
   s.add_dependency "bcrypt", "~> 3.1.7"
   s.add_dependency "sass-rails", "~> 5.0"
 
@@ -25,7 +25,7 @@ Gem::Specification.new do |s|
   s.add_dependency "jquery-ui-rails"
   s.add_dependency "font-awesome-rails"
   s.add_dependency "autoprefixer-rails"
-  s.add_dependency "simple_form", "~>3.1.0"
+  s.add_dependency "simple_form", "~>3"
 
   s.add_dependency "pygments.rb"
   s.add_dependency "redcarpet"
