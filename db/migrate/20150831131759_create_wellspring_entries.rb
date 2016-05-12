@@ -6,6 +6,8 @@ class CreateWellspringEntries < ActiveRecord::Migration
       t.string :slug, index: true
       t.string :locale, index: true
       t.jsonb :payload
+      t.string :image_uid
+      t.string :image_name
       t.integer :user_id, index: true
       t.string :author_name
       t.datetime :published_at
