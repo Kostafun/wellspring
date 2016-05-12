@@ -6,6 +6,7 @@ module Wellspring
       @content_classes = [].freeze
       @current_user_lookup = Proc.new { raise "No user lookup provided!" }
       @sign_in_url = Proc.new { raise "No sign in url provided!" }
+      @locales = ['en', 'ru']
     end
 
     def current_user_lookup(&block)

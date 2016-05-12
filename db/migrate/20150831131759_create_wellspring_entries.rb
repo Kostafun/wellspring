@@ -4,6 +4,7 @@ class CreateWellspringEntries < ActiveRecord::Migration
       t.string :type, index: true
       t.string :title
       t.string :slug, index: true
+      t.string :locale, index: true
       t.jsonb :payload
       t.integer :user_id, index: true
       t.string :author_name
